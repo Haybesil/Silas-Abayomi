@@ -180,7 +180,7 @@ export default function AIChat({ onClose }: AIChatProps) {
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && !e.shiftKey) {
                     e.preventDefault()
-                    handleSubmit(e as any)
+                    handleSubmit(e)
                   }
                 }}
               />
